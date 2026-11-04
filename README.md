@@ -41,7 +41,7 @@ static const char *deny_list[] = {
 
 准备以下环境：
 
-- Linux 或 WSL，以及 GNU Make。
+- 已安装 GNU make 工具的 GNU/Linux 操作系统。
 - KernelPatch 源码及其 `kernel/` 头文件目录。
 - AArch64 交叉编译工具链；现有 Makefile 使用 `aarch64-none-elf-gcc`。
 
@@ -96,9 +96,11 @@ dmesg | grep -F '[HMA++]'
 
 ## 维护与交流
 
-作者因学业原因维护时间有限，项目已开源，后续更新视时间安排。欢迎 Star、Fork 和 Pull Request。
+因作者学业繁忙，该项目的维护时间有限。项目已开源，后续更新计划未定。欢迎 Star、Fork 和 Pull Request。
 
-反馈问题时，请附上模块版本、设备架构、Android 与内核版本、KernelPatch 版本、复现步骤及相关 `[HMA++]` 日志，方便定位问题。
+反馈问题时，请至少附带以下信息，以便我们准确定位并尝试修复问题：
+Android 版本、内核版本、模块版本、Root 实现方案、KernelPatch 版本、复现步骤、 `[HMA++]` 日志。
+如果您无法准确描述复现步骤，您可以选择拍摄包含复现操作和问题情况的视频。请不要使用过高的画质拍摄视频，以免文件过大。
 
 - Telegram 频道：<https://t.me/mizhipindao>
 - Telegram 群组：<https://t.me/mizhichat>
