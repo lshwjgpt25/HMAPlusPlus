@@ -2,7 +2,7 @@
 
 HMA++ 是一个面向 Android ARM64 环境的 KernelPatch 模块（KPM）。它通过钩住部分文件系统调用，限制对 `/storage/emulated/0/Android/data/` 下指定包名目录的创建、切换、删除和状态查询操作。
 
-当前源码版本为 `0.0.3`，作者为 `lshwjgpt`。
+当前源码版本为 `0.0.4`，作者为 `lshwjgpt` 和 `ShuaiB-SB233`。
 
 ## 工作方式
 
