@@ -1,4 +1,3 @@
-
 #include <compiler.h>
 #include <kpmodule.h>
 #include <linux/printk.h>
