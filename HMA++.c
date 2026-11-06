@@ -25,7 +25,7 @@ KPM_DESCRIPTION("TG频道:https://t.me/mizhipindao&TG群组:https://t.me/mizhich
 #define AT_REMOVEDIR_FLAG 0x200
 
 static const char *deny_list[] = {
-    "ender_you_needs_dir!!!"
+    "enter_you_needs_dir!!!"
 };
 
 #define DENY_LIST_SIZE (sizeof(deny_list) / sizeof(deny_list[0]))

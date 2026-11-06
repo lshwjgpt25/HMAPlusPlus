@@ -25,7 +25,7 @@ HMA++ 是一个面向 Android ARM64 环境的 KernelPatch 模块（KPM）。它�
 
 ## 配置黑名单
 
-编辑 [HMA++.c](HMA++.c) 中的 `deny_list`，将默认占位项 `ender_you_needs_dir!!!` 替换为需要限制的目录名。通常该目录名就是应用包名：
+编辑 [HMA++.c](HMA++.c) 中的 `deny_list`，将默认占位项 `enter_you_needs_dir!!!` 替换为需要限制的目录名。通常该目录名就是应用包名：
 
 ```c
 static const char *deny_list[] = {
