@@ -42,7 +42,7 @@ static const char *deny_list[] = {
 
 准备以下环境：
 
-- Linux 或 WSL，以及 GNU Make。
+- 已安装 GNU make 工具的 GNU/Linux 操作系统。
 - KernelPatch 源码及其 `kernel/` 头文件目录。
 - AArch64 交叉编译工具链；现有 Makefile 使用 `aarch64-none-elf-gcc`。
 
@@ -97,7 +97,7 @@ dmesg | grep -F '[HMA++]'
 
 ## 维护与交流
 
-作者因学业原因维护时间有限，项目已开源，后续更新视时间安排。欢迎 Star、Fork 和 Pull Request。
+因作者学业繁忙，该项目的维护时间有限。项目已开源，后续更新计划未定。欢迎 Star、Fork 和 Pull Request。
 
 反馈问题时，请附上模块版本、设备架构、Android 与内核版本、KernelPatch 版本、复现步骤及相关 `[HMA++]` 日志，方便定位问题。
 
