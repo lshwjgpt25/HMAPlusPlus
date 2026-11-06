@@ -14,9 +14,9 @@
 #include <linux/kernel.h>
 
 KPM_NAME("HMA++");
-KPM_VERSION("0.0.3");
+KPM_VERSION("0.1");
 KPM_LICENSE("GPLv3");
-KPM_AUTHOR("lshwjgpt");
+KPM_AUTHOR("lshwjgpt & ShuaiB-SB233");
 KPM_DESCRIPTION("Telegram 频道：https://t.me/mizhipindao & Telegram 群组：https://t.me/mizhichat");
 
 #define TARGET_PATH "/storage/emulated/0/Android/data/"
